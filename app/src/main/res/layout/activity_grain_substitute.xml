@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgrunn"
+    tools:context=".GrainSubstituteActivity">
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/brightWhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="GRAIN SUBSTITUTION" />
+
+    <Button
+        android:id="@+id/returngrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="EXIT TO MAINPAGE" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/brightWhite"
+        android:textStyle="bold"
+        android:text="Manufacturer" />
+
+    <ListView
+        android:id="@+id/prodgrain"
+        android:fadeScrollbars="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="150dp"
+        android:layout_toEndOf="@id/textView2" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="70dp"
+        android:textAlignment="center"
+        android:textColor="@color/brightWhite"
+        android:text="Grain replacement is not always accurate and can cause minor variations in taste etc .. But if you do not get the correct grain this will probably not play a big role." />
+</RelativeLayout>

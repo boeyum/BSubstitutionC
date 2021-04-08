@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgrunn"
+    tools:context=".GrainTypeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/brightWhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="MANUFACTURER GRAIN" />
+
+    <Button
+        android:id="@+id/returnmanifacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="EXIT TO PRIOR PAGE" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/brightWhite"
+        android:textStyle="bold"
+        android:text="Manufacturer" />
+
+    <TextView
+        android:id="@+id/manifname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/textView92"
+        android:layout_alignBaseline="@id/textView92"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/brightWhite"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Briss" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView92"
+        android:layout_alignStart="@id/textView92"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/brightWhite"
+        android:text="Grain " />
+
+    <ListView
+        android:id="@+id/datagrain"
+        android:fadeScrollbars="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manifname"
+        android:layout_alignStart="@id/manifname"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

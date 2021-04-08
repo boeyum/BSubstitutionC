@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infobg"
+    tools:context=".BCInfoActivity">
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/brightWhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="REPLACEMENT INFO" />
+
+    <Button
+        android:id="@+id/returninfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="EXIT TO MAINPAGE" />
+
+    <TextView
+        android:id="@+id/multiAutoCompleteTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView100"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="25dp"
+        android:inputType="textMultiLine"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="The information in this app is collected on the web basically for my own use and posted in this app. The information is for advice only and the developer of this app is not responsible for the result after brewing if the beer is not as expected." />
+
+    <TextView
+        android:id="@+id/multiAutoCompleteTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/multiAutoCompleteTextView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="50dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/totalblack"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Taste of different beers depends on the grain, hops and yeast used. Using a replacement for one or more of these will in all likelihood change the taste of the beer. The compensation in this app is therefore intended to be used only in cases where the original cannot be found. (Or if you want to experiment)." />
+
+</RelativeLayout>

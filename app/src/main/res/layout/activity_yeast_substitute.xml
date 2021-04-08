@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgrunn"
+    tools:context=".YeastSubstituteActivity">
+
+    <TextView
+        android:id="@+id/textView600"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/brightWhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="YEAST SUBSTITUTION" />
+
+    <Button
+        android:id="@+id/sluttyeastmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="EXIT TO MAINPAGE" />
+
+    <TextView
+        android:id="@+id/dummy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="70dp"
+        android:inputType="textMultiLine"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/brightWhite"
+        android:text="Brewers make wort, yeast make beer. Although one would initially think that a yeast replacement should be the same, this is not always true. Every yeast strain has its peculiarities and this will probably affect the finished beer. The yeast substitutions listed in the app can therefore yield a slightly different beer from what was expected. Use it as a recommendation if the original type is not available." />
+
+    <TextView
+        android:id="@+id/dummy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dummy1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textMultiLine"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/brightWhite"
+        android:textStyle="bold|italic"
+        android:text="This comparison deals with 3 suppliers of fresh yeast. For other types of fresh yeast or dry yeast talk to your dealer." />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView600"
+        android:textStyle="bold"
+        android:textColor="@color/brightWhite"
+        android:text="YEAST BRANDING" />
+
+    <ListView
+        android:id="@+id/yeastlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView9"
+        android:layout_above="@id/dummy2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>
